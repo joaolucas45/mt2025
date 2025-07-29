@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Maquina de Escrever em Realidade Aumentada</title>
+    <title>aaa</title>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js/aframe/build/aframe-ar.min.js"></script>
   </head>
   <body style="margin: 0; overflow: hidden;">
-    
-    <video id="video1" src="oJ-w4jTyTtazs4QW.mp4" autoplay loop muted playsinline style="display:none"></video>
-
-    <a-scene embedded arjs>
-      <a-marker type="pattern" url="padrao2.patt">
-        <a-video src="#video1" rotation="-90 0 0" width="2" height="1"></a-video>
+    <a-scene vr-mode-ui="enabled: false" embedded arjs="debugUIEnabled: false">
+      <      <a-marker type="pattern" url="padrao2.patt">
+        <a-video src="oJ-w4jTyTtazs4QW.mp4" rotation="-90 0 0"></a-video>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
-
-
   </body>
 </html>
