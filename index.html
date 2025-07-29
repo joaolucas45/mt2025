@@ -9,13 +9,12 @@
     <a-scene vr-mode-ui="enabled: false" embedded arjs="debugUIEnabled: false">
       <a-assets>
         <a-asset-item id="modelo" src="MaquinadeEscrever2.glb"></a-asset-item>
-        <video id="video1" src="video1.mp4" preload="auto" loop playsinline></video>
+        <video id="video2" src="video1.mp4" preload="auto" loop playsinline></video>
       </a-assets>
       
       <a-marker type="pattern" url="pattern-maquina (1).patt">
-        <!-- Plano com o vídeo como textura -->
         <a-video
-          src="#video1"
+          src="#video1.mp4"
           width="1.5"
           height="0.85"
           position="0 0 0"
